@@ -13,7 +13,7 @@ public enum ContentNum {
     LIVE("live");
 
 
-    private ContentNum(String type) {
+    ContentNum(String type) {
         this.type = type;
     }
 
