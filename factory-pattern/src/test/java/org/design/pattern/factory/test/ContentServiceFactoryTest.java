@@ -19,7 +19,7 @@ public class ContentServiceFactoryTest {
         String userId = "yiyufxst";
         Map<String, Object> dataMap = new HashMap<>();
         dataMap.put("title", "初学设计模式：实战工厂模式");
-        dataMap.put("content", "文章：「文章、视频、直播多种内容输出生产场景」");
+        dataMap.put("content", "文章：「文章、视频、直播内容输出生产场景」");
         dataMap.put("partitionId", 1);
         dataMap.put("articleType", "技术");
         dataMap.put("topics", new ArrayList<String>(){
