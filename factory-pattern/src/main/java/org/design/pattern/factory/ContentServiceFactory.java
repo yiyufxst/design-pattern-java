@@ -1,15 +1,15 @@
 package org.design.pattern.factory;
 
-import org.design.pattern.factory.service.ArticleContentServiceImpl;
+import org.design.pattern.factory.service.impl.ArticleContentServiceImpl;
 import org.design.pattern.factory.service.ContentService;
-import org.design.pattern.factory.service.LiveContentServiceImpl;
-import org.design.pattern.factory.service.VideoContentServiceImpl;
+import org.design.pattern.factory.service.impl.LiveContentServiceImpl;
+import org.design.pattern.factory.service.impl.VideoContentServiceImpl;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 内容工厂
+ * 内容服务工厂
  */
 public class ContentServiceFactory {
     private static final Map<String, ContentService> factoryMap = new ConcurrentHashMap<String, ContentService>();

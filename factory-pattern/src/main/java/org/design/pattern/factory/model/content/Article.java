@@ -1,7 +1,8 @@
-package org.design.pattern.factory.model;
+package org.design.pattern.factory.model.content;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.design.pattern.factory.model.Content;
 
 import java.util.List;
 
@@ -10,7 +11,7 @@ import java.util.List;
  */
 @Getter
 @Setter
-public class Article extends ContentBase {
+public class Article extends Content {
     /**
      * 标题
      */

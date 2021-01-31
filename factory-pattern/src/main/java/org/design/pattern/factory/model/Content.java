@@ -8,7 +8,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class ContentBase {
+public class Content {
     /**
      * 内容id
      */

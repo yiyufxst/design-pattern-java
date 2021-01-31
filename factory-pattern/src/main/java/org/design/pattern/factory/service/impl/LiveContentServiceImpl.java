@@ -1,9 +1,10 @@
-package org.design.pattern.factory.service;
+package org.design.pattern.factory.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.beanutils.BeanUtils;
-import org.design.pattern.factory.model.ContentBase;
-import org.design.pattern.factory.model.Live;
+import org.design.pattern.factory.model.Content;
+import org.design.pattern.factory.model.content.Live;
+import org.design.pattern.factory.service.ContentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +19,7 @@ public class LiveContentServiceImpl implements ContentService {
     private final Logger log = LoggerFactory.getLogger(LiveContentServiceImpl.class);
 
     @Override
-    public ContentBase createContent(String taskId, String userId, Map<String, Object> dataMap) throws InvocationTargetException, IllegalAccessException {
+    public Content createContent(String taskId, String userId, Map<String, Object> dataMap) throws InvocationTargetException, IllegalAccessException {
         log.info("task {} => start", taskId);
         log.info("task {} => live data is {}", taskId, JSON.toJSON(dataMap));
         //初始化

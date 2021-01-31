@@ -1,14 +1,15 @@
-package org.design.pattern.factory.model;
+package org.design.pattern.factory.model.content;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.design.pattern.factory.model.Content;
 
 /**
- * 直播
+ * 视频
  */
 @Getter
 @Setter
-public class Live extends ContentBase {
+public class Video extends Content {
     /**
      * 标题
      */
@@ -20,17 +21,17 @@ public class Live extends ContentBase {
     private String introduction;
 
     /**
-     * 直播间id
+     * 视频地址
      */
-    private String roomId;
+    private String videoUrl;
 
     /**
-     * 直播封面图片地址
+     * 封面图片地址
      */
     private String coverUrl;
 
     /**
-     * 直播分区id
+     * 视频分区
      */
     private String partitionId;
 }
