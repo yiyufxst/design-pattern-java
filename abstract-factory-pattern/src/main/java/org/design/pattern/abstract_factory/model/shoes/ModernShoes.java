@@ -6,6 +6,6 @@ package org.design.pattern.abstract_factory.model.shoes;
 public class ModernShoes implements Shoes {
     @Override
     public void getStyle() {
-        System.out.println("现代风鞋子");
+        System.out.println("现代风皮鞋");
     }
 }
