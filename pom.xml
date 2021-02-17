@@ -14,6 +14,7 @@
         <module>abstract-factory-pattern</module>
         <module>builder-pattern</module>
         <module>prototype-pattern</module>
+        <module>singleton-pattern</module>
     </modules>
 
     <build>
@@ -72,6 +73,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.75</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.11</version>
         </dependency>
     </dependencies>
 
