@@ -15,6 +15,7 @@
         <module>builder-pattern</module>
         <module>prototype-pattern</module>
         <module>singleton-pattern</module>
+        <module>adapter-pattern</module>
     </modules>
 
     <build>
