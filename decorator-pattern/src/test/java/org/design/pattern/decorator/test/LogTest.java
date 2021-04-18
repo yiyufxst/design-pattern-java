@@ -17,7 +17,7 @@ public class LogTest {
     @Test
     public void testLogDecorator() {
         Log log = new SMSLogDecorator(new DingDingLogDecorator(new MailLogDecorator(new Slf4jLog())));
-        log.debug("系统调试开启");
+        log.debug("系统开启调试");
         log.info("系统正常运行");
         log.warn("数据为空警告");
         log.error("mongo 连接错误");
