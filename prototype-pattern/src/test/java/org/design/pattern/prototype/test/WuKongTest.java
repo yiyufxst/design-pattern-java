@@ -12,7 +12,7 @@ public class WuKongTest {
         wuKong.setMagicPoint(300);
         wuKong.setAttackDamage(68);
         wuKong.setAbilityPower(54);
-        //复制孙悟空分身
+        //孙悟空分身
         wuKong.setAttackDamageProportion(0.3f);
         WuKong fakeKong = wuKong.clone();
         System.out.println("孙悟空攻击：");
