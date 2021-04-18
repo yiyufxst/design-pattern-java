@@ -22,7 +22,7 @@ public class TreeTest {
 
     @Before
     public void initTree() {
-        //根节点（用户性别）
+        //根节点（性别）
         TreeNode rootNode = new TreeNode();
         rootNode.setNodeId(1L);
         rootNode.setNodeType("branch");
