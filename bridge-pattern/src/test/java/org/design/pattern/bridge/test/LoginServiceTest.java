@@ -15,7 +15,7 @@ public class LoginServiceTest {
         LoginService wxLoginService = new LoginServiceImpl(wxApi);
         wxLoginService.login();
         //QQ登录
-        LoginApi qqApi = new QqApi("https://www.qq.com", "xxx");
+        LoginApi qqApi = new QqApi("https://www.qq.com", "xx");
         LoginService qqLoginService = new LoginServiceImpl(qqApi);
         qqLoginService.login();
     }
