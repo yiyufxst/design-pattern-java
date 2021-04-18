@@ -13,7 +13,7 @@ import org.junit.Test;
 public class NotificationTest {
     @Test
     public void testNotification() {
-        MonitorMessage monitorMessage = new MonitorMessage("获取mongo数据失败", "错误信息：xxx");
+        MonitorMessage monitorMessage = new MonitorMessage("获取mongo数据失败", "错误信息：xxxx");
         //邮件通知
         NotificationService emailNotificationService = new EmailNotificationServiceImpl();
         emailNotificationService.send(monitorMessage);
