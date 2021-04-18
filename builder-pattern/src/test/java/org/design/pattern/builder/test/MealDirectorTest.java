@@ -19,6 +19,6 @@ public class MealDirectorTest {
         MealBuilder mealBuilder = mealDirector.constructMeanAndVegetablesDinner();
         mealBuilder.showMenu();
         mealBuilder.getCost();
-        System.out.println("单人混合肉蔬年夜饭套餐：" + mealBuilder.getCost());
+        System.out.println("单人肉蔬年夜饭套餐：" + mealBuilder.getCost());
     }
 }
