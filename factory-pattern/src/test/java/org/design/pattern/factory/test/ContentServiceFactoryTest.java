@@ -38,8 +38,8 @@ public class ContentServiceFactoryTest {
         Map<String, Object> dataMap = new HashMap<>();
         dataMap.put("title", "初学设计模式：实战工厂模式");
         dataMap.put("introduction", "视频：「文章、视频、直播多种内容输出生产场景」");
-        dataMap.put("videoUrl", "//yiyufxst.me/av/1");
-        dataMap.put("coverUrl", "//yiyufxst.me/images/1");
+        dataMap.put("videoUrl", "//yiyufxst.me/av/1/");
+        dataMap.put("coverUrl", "//yiyufxst.me/images/1/");
         dataMap.put("partitionId", 1);
         this.contentServiceFactory.getContentService(ContentNum.VIDEO.getType()).createContent(taskId, userId, dataMap);
     }
@@ -52,7 +52,7 @@ public class ContentServiceFactoryTest {
         dataMap.put("title", "初学设计模式：实战工厂模式");
         dataMap.put("introduction", "直播：「文章、视频、直播多种内容输出生产场景」");
         dataMap.put("roomId", 1);
-        dataMap.put("coverUrl", "//yiyufxst.me/images/2");
+        dataMap.put("coverUrl", "//yiyufxst.me/images/2/");
         dataMap.put("partitionId", 1);
         this.contentServiceFactory.getContentService(ContentNum.LIVE.getType()).createContent(taskId, userId, dataMap);
     }
