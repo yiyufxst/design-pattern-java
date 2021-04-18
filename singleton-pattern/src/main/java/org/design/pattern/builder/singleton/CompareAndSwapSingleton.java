@@ -18,7 +18,7 @@ public class CompareAndSwapSingleton {
     private CompareAndSwapSingleton() {
     }
 
-    public static final CompareAndSwapSingleton getInstance() {
+    public static CompareAndSwapSingleton getInstance() {
         for (; ; ) {
             CompareAndSwapSingleton instance = INSTANCE.get();
             if (ObjectUtils.isNotEmpty(instance)) {
