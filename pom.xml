@@ -24,6 +24,7 @@
         <module>proxy-pattern</module>
         <module>chain-of-responsibility-pattern</module>
         <module>command-pattern</module>
+        <module>iterator-pattern</module>
     </modules>
 
     <build>
