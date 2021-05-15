@@ -25,6 +25,7 @@
         <module>chain-of-responsibility-pattern</module>
         <module>command-pattern</module>
         <module>iterator-pattern</module>
+        <module>mediator-pattern</module>
     </modules>
 
     <build>
