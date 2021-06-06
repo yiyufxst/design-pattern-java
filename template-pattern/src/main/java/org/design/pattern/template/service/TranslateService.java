@@ -1,7 +1,7 @@
 package org.design.pattern.template.service;
 
 /**
- * 翻译服务
+ * 翻译服务超类
  */
 public abstract class TranslateService {
 
