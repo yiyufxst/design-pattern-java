@@ -31,6 +31,7 @@
         <module>state-pattern</module>
         <module>strategy-pattern</module>
         <module>template-pattern</module>
+        <module>visitor-pattern</module>
     </modules>
 
     <build>
